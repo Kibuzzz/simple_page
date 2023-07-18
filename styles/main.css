@@ -1,9 +1,8 @@
-
-
 header {
     background-color: #12263A;
 }
-h2 {
+
+header > h2 {
     font-size: 40px;
     background-color: #7C90A0;
     padding: 10px 0px 10px 50px;
@@ -23,4 +22,38 @@ nav > p {
     height: 100%;
     background-image: url("../images/bgi.jpeg");
     background-size: auto;
+}
+
+.container {
+    margin: 0% 10%;
+}
+
+article > h2 {
+    font-size: 25px;
+    font-style: italic;
+    padding: 5% 10%;
+}
+
+article > p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 0% 10% 5% 10%;
+}
+
+article {
+    display: inline;
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    background-color: rgb(72, 86, 101);
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+aside > p {
 }
