@@ -1,0 +1,26 @@
+
+
+header {
+    background-color: #12263A;
+}
+h2 {
+    font-size: 40px;
+    background-color: #7C90A0;
+    padding: 10px 0px 10px 50px;
+}
+
+nav > p {
+    display: inline;
+    color: white;
+    padding: 10px 40px;
+    word-spacing: 1em;
+}
+
+.theme {
+    font-size: 50px;
+    padding: 20% 10%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bgi.jpeg");
+    background-size: auto;
+}
