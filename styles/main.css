@@ -55,5 +55,12 @@ aside {
     box-sizing: border-box;
 }
 
-aside > p {
+.clr {
+    clear: both;
+}
+
+footer {
+    background-color: #F6E8EA;
+    text-align: center;
+    padding: 5%;
 }
