@@ -1,0 +1,82 @@
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: coral;
+    color: white;
+}
+
+header h2 {
+    padding: 2% 0%;
+    font-size: 30px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1% 1% 1% 0%;
+
+}
+
+nav li {
+    display: inline;
+}
+
+
+#showcase {
+    background-image: url("../images/bgi.jpeg");
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    padding: 7%;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+
+main {
+    width: 70%;
+    padding: 3% 0%;
+    float: left;
+    box-sizing: border-box;
+}
+
+main h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    float: right;
+    box-sizing: border-box;
+    background-color: #333;
+    text-align: center;
+}
+
+footer {
+    padding: 1%;
+    text-align: center;
+    background-color: grey;
+}
